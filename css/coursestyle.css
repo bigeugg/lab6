@@ -2,8 +2,6 @@ body {
     background-color: rgb(173,216,230);
 }
 
-h1 {
+.course {
     text-align: center;
-    font-family: 'Montserrat', sans-serif;
 }
-
