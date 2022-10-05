@@ -6,4 +6,10 @@ h1 {
     text-align: center;
     font-family: 'Montserrat', sans-serif;
 }
-
+nav{
+    text-align: center;
+}
+nav span{
+    background-color: cyan;
+ }
+  
