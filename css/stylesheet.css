@@ -6,18 +6,26 @@ body {
     text-align: center;
     font-family: 'Montserrat', sans-serif;
 }
+
 nav {
     text-align: center;
-    background-color: lightblue;
+    background-color: #A6CAD4;
 }
+
 .nobullet{
     list-style: none;
 }
 
-.course {
+.title {
+    background-color: #A6CAD4;
     text-align: center;
 }
 
-.school {
+p.foothead {
+    background-color:#A6CAD4;
     text-align: center;
+}
+
+.container {
+    display: flex;
 }
