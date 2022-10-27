@@ -1,5 +1,5 @@
 body {
-    background-color: rgb(173,216,230);
+    background-color: lavenderblush;
 }
 
 h1 {
@@ -8,8 +8,9 @@ h1 {
 }
 nav{
     text-align: center;
+    background-color: lightblue;
 }
 nav span{
-    background-color: cyan;
+    margin: 0px auto 0px auto;
  }
   
