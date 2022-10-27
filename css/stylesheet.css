@@ -2,15 +2,22 @@ body {
     background-color: lavenderblush;
 }
 
-h1 {
+.Montserratonly {
     text-align: center;
     font-family: 'Montserrat', sans-serif;
 }
-nav{
+nav {
     text-align: center;
     background-color: lightblue;
 }
-nav span{
-    margin: 0px auto 0px auto;
- }
-  
+.nobullet{
+    list-style: none;
+}
+
+.course {
+    text-align: center;
+}
+
+.school {
+    text-align: center;
+}
