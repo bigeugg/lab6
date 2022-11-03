@@ -8,6 +8,11 @@ h1 {
     color: #334259;
 }
 
+li {
+    margin: 5px;
+    list-style-type: none;
+}
+
 nav {
     text-align: center;
     background-color: #A6CAD4;
@@ -21,14 +26,7 @@ header {
     flex-direction: column;
 }
 
-ul {
-    list-style-type: none;
-}
 
-li {
-    margin: 5px;
-    display: inline;
-}
 
   .container {
     display: flex;
@@ -36,6 +34,30 @@ li {
     align-items: center;
     justify-content: left;
   }
+
+ @media (min-width: 600px) {
+    hr {
+        background-color: black;
+        height: 1px;
+    }
+
+    ul li {
+        margin: 5px;
+        display: inline;
+        list-style-type: none;
+    }
+
+    .date {
+        grid-column: 1;
+        grid-row: 4;
+    }
+
+    .filler {
+        grid-column: 1/2;
+        grid-row: 2;
+    }
+ }
+  
 
 .text {
     display: grid;
@@ -45,7 +67,8 @@ li {
     width: 100%;
 }
 
-footer{
+footer {
     background-color: #A6CAD4;
     text-align: center;
 }
+
