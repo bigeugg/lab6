@@ -10,3 +10,10 @@ const courseList = [
      name: "Database Systems"},
      
 ]
+
+let input = ""
+do {
+    input = prompt ("Please enter a 4-digit number: ");
+    console.log(input);
+}
+while (input.length != 4 || !NaN(Number(input)))
